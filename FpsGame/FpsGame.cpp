@@ -3,8 +3,6 @@
 #include <utility>
 #include <algorithm>
 #include <chrono>
-
-
 #include <stdio.h>
 #include <Windows.h>
 
@@ -21,7 +19,7 @@ float fDepth = 16.0f;			// maximum rendaring distance
 float fSpeed = 5.0f;			//walking speed
 
 
-
+// Simulation of Wolfenstein 1990
 int main()
 {
 	// Create Screen Buffer
